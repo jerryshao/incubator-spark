@@ -413,7 +413,7 @@ object SparkBuild extends Build {
         exclude("com.sun.jmx", "jmxri")
         exclude("net.sf.jopt-simple", "jopt-simple")
         excludeAll(excludeNetty),
-      "net.sf.jopt-simple"             % "jopt-simple" % "4.5" % "test"
+      "net.sf.jopt-simple"       %"jopt-simple" % "4.5" % "test"
     )
   )
 

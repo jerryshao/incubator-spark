@@ -100,8 +100,7 @@ class KafkaStreamSuite extends TestSuiteBase {
   private def getBrokerConfig(port: Int): Properties = {
     val props = new Properties()
     props.put("broker.id", "0")
-    props.
-      put("host.name", "localhost")
+    props.put("host.name", "localhost")
     props.put("port", port.toString)
     props.put("log.dir", KafkaStreamSuite.tmpDir().getAbsolutePath)
     props.put("zookeeper.connect", zkConnect)
